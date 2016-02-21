@@ -1,0 +1,228 @@
+#header {
+	font-family:Arial, Helvetica, sans-serif;
+	width: 80%;
+	background-color:white;
+	color: black;
+	margin-top: 0px;
+	position: fixed;
+	right: 10%;
+    left: 10%;
+	margin: auto;
+	z-index: 9;
+}
+.LetraNegrita{
+	font-weight: bolder;
+}
+.LetraNormal{
+	font-family: serif;
+}
+.LetraEstilizada{
+	font-family: cursive;
+}
+.EspacioBlanco{
+	margin-bottom: 1%;
+}
+.EspacioBlancoArriba{
+	margin-top: 1%;
+}
+.ImagenPrincipal{
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.img-circle a img{
+	width: 90px; 
+	height: 90px; 
+	border-radius: 45px; 
+	-webkit-border-radius: 50px; 
+	-moz-border-radius: 50px; 
+	-o-border-radius: 50px; 
+	-ms-border-radius: 50px; }
+}
+.azul{
+	color:  #1a75ff;
+	font-weight: bolder;
+}
+.Degradado{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,1+0,0.01+1,0.3+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.01) 1%, rgba(0,0,0,0.3) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#4d000000',GradientType=0 ); /* IE6-9 */
+	width: 100%;
+}
+.Cuadrados{
+	width: 100%;
+	height: 40%
+}
+.DivLineaCostados{							/* LINEAS DEL FOOTER */
+	border-left : 2px dashed black;
+	border-right : 2px dashed black;
+}
+						/* MENU DE NAVEGACION */
+ul, ol {
+	list-style:none;
+}                     
+.nav > li {
+	float:left;
+}                      
+.nav li a {
+	color:#f2f2f2f;
+	text-decoration:none;
+	padding:15px 12px;
+	display:block;
+}                      
+.nav li a:hover {
+	background-color:#f2f2f2f;
+}                       
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:350px;
+	background-color:#f2f2f2;
+}                       
+.nav li:hover > ul {
+	display:block;
+}                       
+.nav li ul li {
+	position:relative;
+}                       
+.nav li ul li ul {
+	right:-35%;
+	top:0px;
+}
+.nav img{
+	width: 100%;
+	height:auto; ;
+}
+											/* ETIQUETA */
+.Lateral
+{
+    position:fixed;
+    top:30%;
+    right: 0px;
+    padding:0px;
+    margin:0px;
+    width: 3%;
+    height:auto;
+    background:#FF951E;
+    border-radius: 3px 0px 0px 3px;
+    box-shadow:  5px 0px 5px 0px;
+}
+.Lateral img
+{
+    margin: 15px 0px 0px 13px;
+    vertical-align:middle;
+}
+.Lateral p
+{
+    color: #fff;
+    -moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+} 
+.Lateral c{
+	width:100%;
+	height:auto;
+	position:relative;
+	Top:30%;
+	left:20%;
+}
+p
+.Lateral {
+    padding:0px 0px 0px 0px;
+    text-align: center;
+    margin:0px;
+    width: 16%;
+    height:auto;
+    background:#FF931E;
+    z-index:15;
+    border-radius: 5px 5px 0px 0px;
+    -moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    transform-origin: bottom right;
+    position: fixed;
+    right: 0px;
+}
+.Lateral p {
+    color:#fff;
+    display:inline-block;
+    line-height:40px;
+}
+											/* RESPONSIVE*/
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1000px;
+	min-width: 400px;
+	overflow: hidden;
+}
+.ContenedorMenu{
+	width: 100%;
+}
+.ContenedorMenu img{
+	width: 80%;
+	height: auto;
+}
+.container{
+	width: 80%
+
+}
+.media-left{
+	width: 30%;
+}
+.media-body{
+	width: 30%;
+}
+.ImagenPrincipal img{
+	width: 100%;
+	height: auto;
+}
+.media-left img{
+	width: 100%;
+	height: auto;
+}
+.media-body{
+	width: 100%;
+}
+.TextoCentrado{
+	text-align: center;
+}
+.footer{
+ width: 100%;
+}
+.Lateral img{
+	width: 30%;
+	height: auto;
+}														/* MEDIA QUERY */
+@media screen and (max-width: 800px) {
+	.Contenedor{
+		width: 100%;
+	}
+	.footer{
+		display: none;
+	}
+	.ContenedorMenu{
+		display: none;
+	}
+	.Lateral{
+		display: none;
+	}
+}
+@media screen and (max-width: 400px) {
+	.Contenedor{
+		width: 100%;
+	}
+	.footer{
+		display: none;
+	}
+	.ContenedorMenu{
+		display: none;
+	}
+	.Lateral{
+		display: none;
+	}
+}
